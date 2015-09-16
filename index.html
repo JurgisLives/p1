@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	<title>Introduction, P1</title>
+	<meta charset="utf-8"/>
+	<meta name=viewport content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+	<link rel ="stylesheet" href="css/styles.css" />
+
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<div class="row">
+<div class="twelve columns">
+  <header>
+    <h1 id="Welcome">Yero Rudzinskas</h1>
+
+  </header>
+  </div>
+</div>
+
+
+<img id="yeropic" alt="yero picture" src="images/yeropic.jpg"/>
+
+
+<div class="row">
+<ul>
+
+    <li><a href='project1.php'>Project 1</a></li>
+    <li><a href='project2.php'>Project 2</a></li>
+	<li><a href='project3.php'>Project 3</a></li>
+
+
+</ul>
+</div>
+
+
+
+<main>
+<div class="ten columns">
+
+
+<fieldset class="rundown">
+    <legend id="summary">Ask </legend>
+	<fieldset>
+	<legend>2 Sentences....</legend>
+	<p class="2sentences">I'm originally from the Bay Area, I've been living here for a bit more than a year. I'm hoping to go to business school next year. 
+	I play tennis, sail, and sing along loudly to country music.</p></fieldset>
+	<fieldset><legend>Why are you taking this course?</legend>
+	
+	<p>It seemed like a logical step to follow up with the Web Development course I took over the summer, and 
+	I'm excited to get some depth of knowledge in the field. Also it seems like a good way to round out the CS minor for my degree </p>
+	</fieldset>
+<fieldset><legend> Previous Programming Experience</legend>	
+    <p class="experience">I've done some work in HTML, CSS, JavaScript, PHP, SQL, C, and C++. That being said, I wouldn't say I'm confidently proficient in any of them.</p>
+</fieldset>	
+<fieldset> <legend>Mac, PC?</legend>
+<p>I'm on a PC running 8.1 because my ex-gf spilled tea on my mac, and this was cheap. Never was there a tale of more woe, than that of the wet macbook and its dearest Yero.</p></fieldset>
+<fieldset><legend>Anything else you Should know?</legend>
+<p>Yes, I am unable to control my desire for gummi bears. </p></fieldset></fieldset>
+</div>
+</main>
+
+<footer id="footer">
+<?php $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";; ?>
+<?php echo "Last updated: " . date ("F j o", getlastmod()); ?></p>
+</footer>
+</div>
+
+
+</body>
+</html>
